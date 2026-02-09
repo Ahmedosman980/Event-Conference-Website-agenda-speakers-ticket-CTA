@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda - TechConf 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>TechConf <span>2026</span></h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="agenda.html" class="active">Agenda</a></li>
+                    <li><a href="speakers.html">Speakers</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Conference Agenda</h1>
+                <p>Three days of inspiring talks, workshops, and networking</p>
+            </div>
+        </section>
+
+        <section class="agenda-nav">
+            <div class="container">
+                <div class="day-tabs">
+                    <button class="tab-btn active" data-day="day1">Day 1 - March 15</button>
+                    <button class="tab-btn" data-day="day2">Day 2 - March 16</button>
+                    <button class="tab-btn" data-day="day3">Day 3 - March 17</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="agenda-content">
+            <div class="container">
+                <div class="agenda-day active" id="day1">
+                    <h2>Day 1 - March 15, 2026</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="time">8:00 AM</div>
+                            <div class="timeline-content">
+                                <h3>Registration & Welcome Coffee</h3>
+                                <p>Pick up your badge and enjoy refreshments before the conference begins.</p>
+                                <div class="session-details">
+                                    <span class="location">Main Lobby</span>
+                                    <span class="duration">1 hour</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">9:00 AM</div>
+                            <div class="timeline-content keynote">
+                                <h3>Opening Keynote: The Future of AI</h3>
+                                <p>Dr. Sarah Chen explores the transformative impact of artificial intelligence on society and industry.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker1/50/50.jpg" alt="Dr. Sarah Chen">
+                                    <div>
+                                        <strong>Dr. Sarah Chen</strong><br>
+                                        CEO, AI Innovations Lab
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Main Hall</span>
+                                    <span class="duration">45 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">10:00 AM</div>
+                            <div class="timeline-content">
+                                <h3>Cloud Native Development Workshop</h3>
+                                <p>Learn best practices for building scalable cloud-native applications using modern tools and frameworks.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker2/50/50.jpg" alt="Michael Rodriguez">
+                                    <div>
+                                        <strong>Michael Rodriguez</strong><br>
+                                        Senior Cloud Architect, TechCorp
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Workshop Room A</span>
+                                    <span class="duration">90 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">10:00 AM</div>
+                            <div class="timeline-content">
+                                <h3>Cybersecurity in the Age of Quantum Computing</h3>
+                                <p>Exploring the challenges and solutions for securing data in a post-quantum world.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker3/50/50.jpg" alt="Jennifer Park">
+                                    <div>
+                                        <strong>Jennifer Park</strong><br>
+                                        Security Researcher, SecureIT
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Conference Room B</span>
+                                    <span class="duration">45 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">12:00 PM</div>
+                            <div class="timeline-content lunch">
+                                <h3>Lunch Break & Networking</h3>
+                                <p>Enjoy a complimentary lunch and network with fellow attendees.</p>
+                                <div class="session-details">
+                                    <span class="location">Dining Hall</span>
+                                    <span class="duration">1 hour</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">1:00 PM</div>
+                            <div class="timeline-content">
+                                <h3>Mobile-First Development Strategies</h3>
+                                <p>Building responsive, performant mobile applications that scale across platforms.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker4/50/50.jpg" alt="Alex Thompson">
+                                    <div>
+                                        <strong>Alex Thompson</strong><br>
+                                        Mobile Lead, AppDev Studios
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Conference Room A</span>
+                                    <span class="duration">45 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">2:00 PM</div>
+                            <div class="timeline-content">
+                                <h3>Blockchain Beyond Cryptocurrency</h3>
+                                <p>Discover real-world applications of blockchain technology in supply chain, healthcare, and more.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker5/50/50.jpg" alt="David Kim">
+                                    <div>
+                                        <strong>David Kim</strong><br>
+                                        Blockchain Consultant, ChainTech
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Conference Room B</span>
+                                    <span class="duration">45 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">3:00 PM</div>
+                            <div class="timeline-content">
+                                <h3>Coffee Break & Expo</h3>
+                                <p>Explore sponsor booths and connect with exhibitors.</p>
+                                <div class="session-details">
+                                    <span class="location">Expo Hall</span>
+                                    <span class="duration">45 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">4:00 PM</div>
+                            <div class="timeline-content panel">
+                                <h3>Panel: Women in Tech Leadership</h3>
+                                <p>Industry leaders discuss challenges and opportunities for women in technology leadership roles.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker6/50/50.jpg" alt="Maria Garcia">
+                                    <div>
+                                        <strong>Maria Garcia & Panel</strong><br>
+                                        VP of Engineering, CloudNet
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Main Hall</span>
+                                    <span class="duration">60 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">5:30 PM</div>
+                            <div class="timeline-content social">
+                                <h3>Welcome Reception</h3>
+                                <p>Join us for drinks, hors d'oeuvres, and networking with speakers and attendees.</p>
+                                <div class="session-details">
+                                    <span class="location">Rooftop Lounge</span>
+                                    <span class="duration">2 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agenda-day" id="day2">
+                    <h2>Day 2 - March 16, 2026</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="time">8:30 AM</div>
+                            <div class="timeline-content">
+                                <h3>Morning Yoga & Meditation</h3>
+                                <p>Start your day with guided meditation and gentle yoga exercises.</p>
+                                <div class="session-details">
+                                    <span class="location">Wellness Room</span>
+                                    <span class="duration">30 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">9:00 AM</div>
+                            <div class="timeline-content keynote">
+                                <h3>Keynote: The Metaverse Revolution</h3>
+                                <p>How virtual and augmented reality are reshaping human interaction and business.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker7/50/50.jpg" alt="Robert Chang">
+                                    <div>
+                                        <strong>Robert Chang</strong><br>
+                                        CTO, VR Ventures
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Main Hall</span>
+                                    <span class="duration">45 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">10:00 AM</div>
+                            <div class="timeline-content">
+                                <h3>DevOps Best Practices</h3>
+                                <p>Streamlining development workflows with modern DevOps tools and methodologies.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker8/50/50.jpg" alt="Lisa Wong">
+                                    <div>
+                                        <strong>Lisa Wong</strong><br>
+                                        DevOps Lead, DataSoft
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Workshop Room A</span>
+                                    <span class="duration">90 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">12:00 PM</div>
+                            <div class="timeline-content lunch">
+                                <h3>Lunch & Learn: Tech Startup Pitch Session</h3>
+                                <p>Watch emerging startups pitch their innovative ideas to investors.</p>
+                                <div class="session-details">
+                                    <span class="location">Main Hall</span>
+                                    <span class="duration">1 hour</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">2:00 PM</div>
+                            <div class="timeline-content workshop">
+                                <h3>Hackathon Kickoff</h3>
+                                <p>24-hour coding challenge begins! Form teams and start building innovative solutions.</p>
+                                <div class="session-details">
+                                    <span class="location">Hackathon Space</span>
+                                    <span class="duration">2 hours kickoff</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">4:00 PM</div>
+                            <div class="timeline-content">
+                                <h3>Sustainable Tech: Green Computing</h3>
+                                <p>Building environmentally sustainable technology solutions.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker9/50/50.jpg" alt="Emma Wilson">
+                                    <div>
+                                        <strong>Emma Wilson</strong><br>
+                                        Green Tech Advocate
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Conference Room A</span>
+                                    <span class="duration">45 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">7:00 PM</div>
+                            <div class="timeline-content social">
+                                <h3>Gala Dinner & Awards</h3>
+                                <p>Formal dinner featuring the Tech Innovation Awards ceremony.</p>
+                                <div class="session-details">
+                                    <span class="location">Grand Ballroom</span>
+                                    <span class="duration">3 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agenda-day" id="day3">
+                    <h2>Day 3 - March 17, 2026</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="time">8:00 AM</div>
+                            <div class="timeline-content">
+                                <h3>Breakfast & Hackathon Final Presentations</h3>
+                                <p>Teams present their hackathon projects to judges.</p>
+                                <div class="session-details">
+                                    <span class="location">Main Hall</span>
+                                    <span class="duration">2 hours</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">10:30 AM</div>
+                            <div class="timeline-content keynote">
+                                <h3>Closing Keynote: Building the Future Together</h3>
+                                <p>Reflections on the conference and vision for the future of technology.</p>
+                                <div class="speaker">
+                                    <img src="https://picsum.photos/seed/speaker10/50/50.jpg" alt="James Mitchell">
+                                    <div>
+                                        <strong>James Mitchell</strong><br>
+                                        Founder, FutureTech Institute
+                                    </div>
+                                </div>
+                                <div class="session-details">
+                                    <span class="location">Main Hall</span>
+                                    <span class="duration">45 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">11:30 AM</div>
+                            <div class="timeline-content">
+                                <h3>Hackathon Awards & Closing Ceremony</h3>
+                                <p>Awarding hackathon winners and closing remarks.</p>
+                                <div class="session-details">
+                                    <span class="location">Main Hall</span>
+                                    <span class="duration">30 minutes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="time">12:00 PM</div>
+                            <div class="timeline-content lunch">
+                                <h3>Farewell Lunch & Networking</h3>
+                                <p>Final networking opportunity with conference attendees and speakers.</p>
+                                <div class="session-details">
+                                    <span class="location">Dining Hall</span>
+                                    <span class="duration">2 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="agenda-legend">
+            <div class="container">
+                <h3>Session Types</h3>
+                <div class="legend-items">
+                    <div class="legend-item">
+                        <div class="legend-color keynote"></div>
+                        <span>Keynote</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color workshop"></div>
+                        <span>Workshop</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color panel"></div>
+                        <span>Panel Discussion</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color lunch"></div>
+                        <span>Meals & Breaks</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color social"></div>
+                        <span>Social Events</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechConf 2026</h3>
+                    <p>The premier technology conference connecting innovators worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="agenda.html">Agenda</a></li>
+                        <li><a href="speakers.html">Speakers</a></li>
+                        <li><a href="tickets.html">Tickets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@techconf2026.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechConf. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

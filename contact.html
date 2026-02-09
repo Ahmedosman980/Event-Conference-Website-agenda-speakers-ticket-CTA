@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TechConf 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>TechConf <span>2026</span></h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="speakers.html">Speakers</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Get in Touch</h1>
+                <p>We'd love to hear from you!</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <p>Have questions about TechConf 2026? We're here to help! Reach out to us through any of the following channels.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p>info@techconf2026.com</p>
+                                    <p class="sub-text">General inquiries and information</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Phone</h3>
+                                    <p>+1 (555) 123-4567</p>
+                                    <p class="sub-text">Mon-Fri, 9:00 AM - 6:00 PM PST</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Social Media</h3>
+                                    <p>@TechConf2026</p>
+                                    <p class="sub-text">Follow us for updates and announcements</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Venue Address</h3>
+                                    <p>Moscone Center</p>
+                                    <p>747 Howard Street, San Francisco, CA 94103</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="office-hours">
+                            <h3>Office Hours</h3>
+                            <div class="hours-grid">
+                                <div class="hours-item">
+                                    <span>Monday - Friday</span>
+                                    <span>9:00 AM - 6:00 PM PST</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span>Saturday</span>
+                                    <span>10:00 AM - 2:00 PM PST</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span>Sunday</span>
+                                    <span>Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <div class="form-card">
+                            <h2>Send us a Message</h2>
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject">Subject *</label>
+                                    <select id="subject" name="subject" required>
+                                        <option value="">Select a subject</option>
+                                        <option value="general">General Inquiry</option>
+                                        <option value="tickets">Ticket Information</option>
+                                        <option value="speakers">Speaker Information</option>
+                                        <option value="sponsorship">Sponsorship Opportunities</option>
+                                        <option value="media">Media & Press</option>
+                                        <option value="volunteer">Volunteer Opportunities</option>
+                                        <option value="accessibility">Accessibility Requirements</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message *</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                </div>
+
+                                <div class="form-group checkbox-group">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <label for="newsletter">I'd like to receive updates about TechConf 2026</label>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-links">
+            <div class="container">
+                <h2>Quick Links</h2>
+                <div class="links-grid">
+                    <div class="link-card">
+                        <i class="fas fa-ticket-alt"></i>
+                        <h3>Ticket Information</h3>
+                        <p>Learn about ticket types, pricing, and early bird discounts</p>
+                        <a href="tickets.html" class="btn btn-secondary">View Tickets</a>
+                    </div>
+
+                    <div class="link-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Conference Schedule</h3>
+                        <p>View the complete agenda and session schedule</p>
+                        <a href="agenda.html" class="btn btn-secondary">View Agenda</a>
+                    </div>
+
+                    <div class="link-card">
+                        <i class="fas fa-microphone"></i>
+                        <h3>Speaker Applications</h3>
+                        <p>Interested in speaking at TechConf 2027? Apply here</p>
+                        <a href="#" class="btn btn-secondary">Apply to Speak</a>
+                    </div>
+
+                    <div class="link-card">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Sponsorship</h3>
+                        <p>Learn about sponsorship opportunities and benefits</p>
+                        <a href="#" class="btn btn-secondary">Sponsor Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="venue-info">
+            <div class="container">
+                <h2>Venue Information</h2>
+                <div class="venue-details">
+                    <div class="venue-text">
+                        <h3>Moscone Center</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 747 Howard Street, San Francisco, CA 94103</p>
+                        <p><i class="fas fa-phone"></i> (415) 974-4000</p>
+                        <p><i class="fas fa-globe"></i> <a href="#">www.moscone.com</a></p>
+                        
+                        <div class="venue-features">
+                            <h4>Venue Features:</h4>
+                            <ul>
+                                <li>World-class convention facility</li>
+                                <li>Located in heart of San Francisco's tech district</li>
+                                <li>Easy access to public transportation</li>
+                                <li>Multiple dining options nearby</li>
+                                <li>High-speed WiFi throughout</li>
+                                <li>ADA compliant facilities</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="venue-map">
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>Interactive Map</p>
+                            <small>Click to view on Google Maps</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>How do I get to the venue?</h3>
+                        <p>The Moscone Center is easily accessible via BART, Muni, and rideshare services. It's located just 20 minutes from SFO airport.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is there parking available?</h3>
+                        <p>Yes, there are multiple parking garages around the Moscone Center. Conference attendees receive a 20% discount on parking.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are there accommodations nearby?</h3>
+                        <p>Yes, we have partnered with several hotels offering discounted rates for conference attendees. See our accommodations page for details.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is the venue wheelchair accessible?</h3>
+                        <p>Absolutely! The Moscone Center is fully ADA compliant with wheelchair access, elevators, and accessible restrooms throughout.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-signup">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Connected</h2>
+                    <p>Join our mailing list for the latest updates, speaker announcements, and special offers!</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechConf 2026</h3>
+                    <p>The premier technology conference connecting innovators worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="agenda.html">Agenda</a></li>
+                        <li><a href="speakers.html">Speakers</a></li>
+                        <li><a href="tickets.html">Tickets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@techconf2026.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechConf. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
